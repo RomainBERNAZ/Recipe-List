@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recettes",
+  "info": {
+    "name": "Recette"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
